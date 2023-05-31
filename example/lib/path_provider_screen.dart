@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 
 class PathProviderScreen extends StatefulWidget {
-  PathProviderScreen({Key key, this.title}) : super(key: key);
-  final String title;
+  PathProviderScreen({Key? key, this.title}) : super(key: key);
+  final String? title;
 
   @override
   _PathProviderScreenState createState() => _PathProviderScreenState();
